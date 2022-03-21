@@ -55,6 +55,8 @@ public class Lab07Controller implements Initializable {
             pieChart.setData(pieChartData);
             pieChart.setBackground(Background.EMPTY);
             pieChart.setLegendVisible(true);
+            pieChart.setLegendSide(Side.LEFT);
+
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
